@@ -1,8 +1,12 @@
 package com.mycompany.app;
 
-public class App 
+/**
+ * Hello world!
+ *
+ */
+public class Calculator 
 {
-  public static int add(int firstNumber, int secondNumber) {
+    public static int add(int firstNumber, int secondNumber) {
     return firstNumber + secondNumber;
   }
 
@@ -18,6 +22,6 @@ public class App
   }
   public static void main( String[] args )
   {
-    System.out.println(App.add( 8, 3)); 
+    System.out.println(Calculator.add(3, 3)); 
   }
 }

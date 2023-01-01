@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.app.CalculatorTest" time="0.022" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Temps\PracticeJUnitMaven\my-app\target\test-classes;C:\Temps\PracticeJUnitMaven\my-app\target\classes;C:\Users\info\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.2\junit-jupiter-api-5.4.2.jar;C:\Users\info\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\info\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\info\.m2\repository\org\junit\platform\junit-platform-commons\1.4.2\junit-platform-commons-1.4.2.jar;C:\Users\info\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.2\junit-jupiter-engine-5.4.2.jar;C:\Users\info\.m2\repository\org\junit\platform\junit-platform-engine\1.4.2\junit-platform-engine-1.4.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="D:\Paths\java\openlogic-openjdk-8u292-b10-windows-64\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\info\AppData\Local\Temp\surefire98003688646978015\surefirebooter4431896897670338881.jar C:\Users\info\AppData\Local\Temp\surefire98003688646978015 2023-01-01T17-59-59_415-jvmRun1 surefire8349566350393684013tmp surefire_02388296006490770658tmp"/>
+    <property name="surefire.test.class.path" value="C:\Temps\PracticeJUnitMaven\my-app\target\test-classes;C:\Temps\PracticeJUnitMaven\my-app\target\classes;C:\Users\info\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.2\junit-jupiter-api-5.4.2.jar;C:\Users\info\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\info\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\info\.m2\repository\org\junit\platform\junit-platform-commons\1.4.2\junit-platform-commons-1.4.2.jar;C:\Users\info\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.2\junit-jupiter-engine-5.4.2.jar;C:\Users\info\.m2\repository\org\junit\platform\junit-platform-engine\1.4.2\junit-platform-engine-1.4.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\info"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="D:\Paths\java\openlogic-openjdk-8u292-b10-windows-64\jre"/>
+    <property name="basedir" value="C:\Temps\PracticeJUnitMaven\my-app"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\info\AppData\Local\Temp\surefire98003688646978015\surefirebooter4431896897670338881.jar;C:\\Users\\info\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.2\\org.jacoco.agent-0.8.2-runtime.jar"/>
+    <property name="sun.boot.class.path" value="D:\Paths\java\openlogic-openjdk-8u292-b10-windows-64\jre\lib\resources.jar;D:\Paths\java\openlogic-openjdk-8u292-b10-windows-64\jre\lib\rt.jar;D:\Paths\java\openlogic-openjdk-8u292-b10-windows-64\jre\lib\sunrsasign.jar;D:\Paths\java\openlogic-openjdk-8u292-b10-windows-64\jre\lib\jsse.jar;D:\Paths\java\openlogic-openjdk-8u292-b10-windows-64\jre\lib\jce.jar;D:\Paths\java\openlogic-openjdk-8u292-b10-windows-64\jre\lib\charsets.jar;D:\Paths\java\openlogic-openjdk-8u292-b10-windows-64\jre\lib\jfr.jar;D:\Paths\java\openlogic-openjdk-8u292-b10-windows-64\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0-292-b10"/>
+    <property name="user.name" value="info"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="D:\Paths\java\openlogic-openjdk-8u292-b10-windows-64\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\info\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\info\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0-292"/>
+    <property name="user.dir" value="C:\Temps\PracticeJUnitMaven\my-app"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="D:\Paths\java\openlogic-openjdk-8u292-b10-windows-64\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Languages\Pythons\Python38\Scripts\;C:\Languages\Pythons\Python38\;C:\Python38\Scripts\;C:\Python38\;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\WINDOWS;C:\WINDOWS\system32;D:\Paths\java\openlogic-openjdk-8u292-b10-windows-64\bin;D:\Paths\apache-maven-3.8.4\bin;C:\Program Files\Amazon\AWSCLIV2\;D:\Paths\npp.8.1.5.portable;D:\Paths\Terraform;D:\Paths\ZoomIt;D:\Paths\Git\bin;D:\Paths\MobaXterm_Portable_v21.5;D:\Paths\dbeaver21.3.4;C:\ProgramData\chocolatey\bin;C:\Program Files\GitHub CLI\;D:\Paths\node-v16.14.0-win-x64;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;D:\Paths\ffmpeg-2022-03-07-git-e645a1ddb9-essentials_build\bin;C:\Program Files\dotnet\;C:\minikube;D:\Paths;C:\xampp\mysql\bin;D:\Paths\nmap-7.92;D:\Paths\packer_1.8.3_windows_amd64;C:\Program Files\Oracle\VirtualBox;D:\Paths\groovy-sdk-4.0.1\bin;D:\Paths\sqlite\;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Paths\JQ;D:\Paths\minikube;C:\Program Files\Xournal++\bin\;C:\Program Files\Docker\Docker\resources\bin;D:\Paths\mysql-8.0.31-winx64\bin;C:\Users\info\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\info\AppData\Local\Programs\Python\Python310\;C:\Users\info\AppData\Local\Microsoft\WindowsApps;C:\Program Files\heroku\bin;C:\Users\info\.dotnet\tools;D:\Paths\postgresql-14.2-2-windows-x64-binaries\bin;C:\Users\info\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="OpenLogic-OpenJDK"/>
+    <property name="java.vm.version" value="25.71-b10"/>
+    <property name="java.ext.dirs" value="D:\Paths\java\openlogic-openjdk-8u292-b10-windows-64\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="multiply_FourTimesTwo_ReturnsEight" classname="com.mycompany.app.CalculatorTest" time="0.012"/>
+  <testcase name="divide_TenDividedTwo_ReturnsFive" classname="com.mycompany.app.CalculatorTest" time="0"/>
+  <testcase name="shouldAnswerWithTrue" classname="com.mycompany.app.CalculatorTest" time="0"/>
+  <testcase name="add_TwoPlusTwo_ReturnsFour" classname="com.mycompany.app.CalculatorTest" time="0.001"/>
+</testsuite>
