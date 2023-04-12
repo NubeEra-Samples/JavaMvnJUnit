@@ -1,0 +1,6 @@
+git clone https://github.com/NubeEra-Samples/JavaMvnJUnit.git
+cd JavaMvnJUnit
+mvn clean
+mvn package
+cd target\classes
+java com.mycompany.app.Calculator
